@@ -1,0 +1,39 @@
+/* src/UserList.css */
+.user-list {
+    text-align: center;
+    background-color: #0c323b;
+    padding: 20px;
+  }
+  
+  .user-list  h1{
+    color: rgb(18, 20, 27);
+  }
+  .user-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-card {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    background-color: rgb(108, 116, 219);
+  }
+  
+  .user-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .user-card h2 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .user-card p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
